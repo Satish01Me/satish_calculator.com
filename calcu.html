@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="cal.js"></script>
+</head>
+<body>
+    <div class="all">
+    <div class="two">
+        <div id="ans">
+            Ans
+        </div>
+    <div class="d1">
+        <div class="calu">
+            <div class="r">
+            <button id="(" onclick="myfun(this.id)">(</button>
+            <button id=")" onclick="myfun(this.id)">)</button>
+            <button id="%" onclick="myfun(this.id)">%</button>
+            <button id="ac" onclick="mydel(this.id)">AC</button>
+            </div>
+            <div class="r">
+            <button id="1" onclick="myfun(this.id)">1</button>
+            <button id="2" onclick="myfun(this.id)">2</button>
+            <button id="3"onclick="myfun(this.id)">3</button>
+            <button id="/"onclick="myfun(this.id)">/</button>
+            </div>
+            <div class="r">
+            <button id="4"onclick="myfun(this.id)">4</button>
+            <button id="5"onclick="myfun(this.id)">5</button>
+            <button id="6"onclick="myfun(this.id)">6</button>
+            <button id="*"onclick="myfun(this.id)">x</button>
+            </div>
+            <div class="r">
+            <button id="7"onclick="myfun(this.id)">7</button>
+            <button id="8"onclick="myfun(this.id)">8</button>
+            <button id="9"onclick="myfun(this.id)">9</button>
+            <button id="-"onclick="myfun(this.id)">-</button>
+            </div>
+            <div class="r">
+            <button id="."onclick="myfun(this.id)">.</button>
+            <button id="0"onclick="myfun(this.id)">0</button>
+            <button id="="onclick="myeq(this.id)">=</button>
+            <button id="+"onclick="myfun(this.id)">+</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="d2">
+        <div class="two">
+        <div class="t">
+        <h1 >Tools</h1>
+        </div>
+
+        <div class="tool">
+            <div class="rr">
+            <button id="√(" onclick="mytri(this.id)">√</button>
+            <button id="exp(" onclick="mytri(this.id)">e<sup>x</sup></button>
+            <button id="**" onclick="myfun(this.id)">a<sup>b</sup></button>
+            <button id="log(" onclick="mytri(this.id)">Log<sub>10</sub></button>
+            <button id="ln(" onclick="mytri(this.id)">ln<sub>e</sub></button>
+            <button id="1/" onclick="myfun(this.id)">x<sup>-1</sup></button>
+            <button id="PI" onclick="mytri(this.id)">pi</button>
+            <button id="&" onclick="myfun(this.id)">bit-&</button>
+            <button id="|" onclick="myfun(this.id)">bit-|</button>
+            <button id="!" onclick="myfun(this.id)">bit-!</button>
+            <button id="^" onclick="myfun(this.id)">bit-^</button>
+            <button id="sin(" onclick="mytri(this.id)">Sin</button>
+            <button id="cos(" onclick="mytri(this.id)">Cos</button>
+            <button id="tan(" onclick="mytri(this.id)">Tan</button>
+            <button id="cot(" onclick="mytri(this.id)">Cot</button>
+            <button id="sec(" onclick="mytri(this.id)">Sec</button>
+            <button id="cosec(" onclick="mytri(this.id)">Cosec</button>
+            <button id="degree" onclick="mydeg(this.id)">Degree</button>
+            <button id="reg" onclick="myfun(this.id)">Reg</button>
+            <button id="mode" onclick="myfun(this.id)">Mode</button>
+            <button id="mean" onclick="myst(this.id)">Mean</button>
+            <button id="median" onclick="myst(this.id)">Median</button>
+            <button id="asin(" onclick="mytri(this.id)">Sin<sup>-1</sup></button>
+            <button id="acos(" onclick="mytri(this.id)">Cos<sup>-1</sup></button>
+            <button id="atan(" onclick="mytri(this.id)">Tan<sup>-1</sup></button>
+            <button id="acot(" onclick="mytri(this.id)">Cot<sup>-1</sup></button>
+            <button id="asec(" onclick="mytri(this.id)">Sec<sup>-1</sup></button>
+            <button id="acosec(" onclick="mytri(this.id)">Cosec<sup>-1</sup></button>
+            <button id="True" onclick="myfun(this.id)">True</button>
+            <button id="False" onclick="myfun(this.id)">False</button>
+            <button id="&&" onclick="myfun(this.id)">AND</button>
+            <button id="or" onclick="myfun(this.id)">OR</button>
+            <button id="not" onclick="myfun(this.id)">NOT</button>
+            <button id="backspace" onclick="myback(this.id)" style="width: 150px;">backspace</button>
+            <button id="space" onclick="mytri(this.id)">Space</button>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="name">
+        <h1>BY- SATISH MAURYA</h1>
+    </div>
+    <footer>
+        <div style="text-align: center;margin-top: 10px; font-size: 20px;">Copyright &copy; satish_calculator.com </div>
+    </footer>
+    
+</body>
+</html>

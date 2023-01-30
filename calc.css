@@ -1,0 +1,87 @@
+
+body{
+    background-color: blueviolet;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.d1{
+    border: 3px solid grey;
+    width: 20vw;
+}
+
+.calu{
+    background-color: black;
+    border: 1px solid gray;
+    max-width: fit-content;
+    margin: 10px;
+}
+.r button{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(108, 108, 146);
+    width: 50px;
+}
+.rr button{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(108, 108, 146);
+    width: 85px;
+}
+.d1{
+    display: flex;
+}
+.d2{
+    height: fit-content;
+    display: flex;
+}
+.tool{
+    background-color: black;
+    max-width: fit-content;
+    border: 3px solid gray;
+}
+h1{
+    margin-top: 23px;
+    margin-left: 440px;
+}
+#ans{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border: 3px solid gray;
+    margin: 20px 10px;
+    display: inline-flex;
+    flex-direction: row;
+    width: 20vw;
+    overflow: hidden;
+} 
+.r{
+    display: flex;
+    flex-direction: row;
+}
+.all{
+    display: flex;
+    flex-direction: auto;
+}
+.two{
+    display:inline-block;
+    justify-content: center;
+}
+.t{
+    margin: 20px;
+    font-size: 20px;
+}
+.name{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+footer{
+    background-color: rgba(0, 0, 255, 0.61);
+    color: white;
+    height: 50px ;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
